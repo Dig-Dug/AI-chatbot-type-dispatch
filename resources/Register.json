@@ -1,0 +1,68 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ImageSet",
+      "images": [
+        {
+          "type": "Image",
+          "horizontalAlignment": "Center",
+          "spacing": "None",
+          "url": "https://static1.squarespace.com/static/5504580ee4b023db67235117/t/56ddb22d356fb0dac9e1b806/1457369653268/417-endodontics-patient-registration.jpg?format=1500w",
+          "size": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "horizontalAlignment": "Center",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Register"
+    },
+    {
+      "type": "Input.Text",
+      "id": "_name",
+      "placeholder": "complete name"
+    },
+
+    {
+      "type": "Input.Text",
+      "id": "email",
+      "placeholder": "E-mail"
+
+    },
+    {
+      "type": "Input.Text",
+      "id": "password",
+      "placeholder": "password",
+      "style": "Email"
+    },
+    {
+      "type": "Input.Toggle",
+      "id": "AcceptsTerms",
+      "title": "Ich bestätige die Richtigkeit der gemachten Angaben und die Geschäftsbedingungen zu kennen und akzeptiere diese.",
+      "value": true,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Neue Patient erstellen",
+      "data": {
+        "_name": "loco",
+        "email": [],
+        "password": []
+      }
+    },
+    {
+
+      "type": "Action.Submit",
+      "title": "Cancel"
+
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

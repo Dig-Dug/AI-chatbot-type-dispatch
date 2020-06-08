@@ -1,0 +1,83 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://previews.123rf.com/images/katisa/katisa1211/katisa121100029/16389822-robot-thinking.jpg",
+      "width": "137px",
+      "style": "Person"
+    },
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Generelle Fragen",
+      "horizontalAlignment": "Center",
+      "color": "Attention"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "wie lautet Ihre Telefonnummer?",
+      "data": "wie lautet Ihre Telefonnummer?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Von wem kann LuigiBot genutzt werden?",
+      "data": "Von wem kann LuigiBot genutzt werden?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Wann ist LuigiBot der richtige Ansprechpartner?",
+      "data": "Wann ist LuigiBot der richtige Ansprechpartner?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Welche Ärzte stehen mir bei LuigiBot zur Verfügung?",
+      "data": "Welche Ärzte stehen mir bei LuigiBot zur Verfügung?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Nach welchen Kriterien wählt LuigiBot seine Ärzte aus?",
+      "data": "Nach welchen Kriterien wählt LuigiBot seine Ärzte aus?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "In welchen Städten ist LuigiBot verfügbar?",
+      "data": "In welchen Städten ist LuigiBot verfügbar?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Was geschieht, wenn ich die LuigiBot-Rufnummer wähle?",
+      "data": "Was geschieht, wenn ich die LuigiBot-Rufnummer wähle?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Was geschieht mit meinen vertraulichen Daten?",
+      "data": "Was geschieht mit meinen vertraulichen Daten?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Welche weitere Kanäle kann ich zur Kontaktaufnahme nutzen?",
+      "data": "Welche weitere Kanäle kann ich zur Kontaktaufnahme nutzen?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Ist die ARZTPRAXIS barrierefrei?",
+      "data": "Ist die ARZTPRAXIS barrierefrei?"
+    },
+
+    {
+      "type": "Action.Submit",
+      "title": "Züruck zur Hauptmenu",
+      "data": "push something",
+      "iconUrl": "https://media.giphy.com/media/Tugu78Y5vg0Ss/giphy.gif",
+      "style": "positive"
+    }
+  ],
+  "lang": "ger",
+  "fallbackText": "üäö"
+}

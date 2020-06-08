@@ -1,0 +1,48 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://media.giphy.com/media/Tugu78Y5vg0Ss/giphy.gif",
+      "altText": ""
+    },
+    {
+      "type": "TextBlock",
+      "horizontalAlignment": "Center",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Bitte wählen Sie eine Option"
+    }
+  ],
+  "actions": [
+
+    {
+      "type": "Action.Submit",
+      "title": "Einloggen",
+      "url": "http://adaptivecards.io",
+      "data": "login"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Termin vereinbaren",
+      "url": "http://adaptivecards.io",
+      "data": "Registrieren"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Chat mit ArztBot",
+      "url": "http://adaptivecards.io",
+      "data": "Chat mit ArztBot"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "F.A.Q",
+      "url": "http://adaptivecards.io",
+      "data": "F.A.Q"
+    }
+  ],
+
+
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

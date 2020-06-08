@@ -1,0 +1,49 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://www.eharmony.com.au/dating-advice/wp-content/uploads/2015/02/eH-date-doctor.jpg",
+      "horizontalAlignment": "Center",
+      "size": "Medium",
+      "style": "Person"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "Neue Termin",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "Input.Date",
+            "id": "dueDate"
+          },
+          {
+            "type": "Input.Text",
+            "id": "comment",
+            "placeholder": "Optionale Anweisungen",
+            "isMultiline": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Buch Termin",
+            "url": "http://adaptivecards.io"
+          }
+        ],
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Meine Termine",
+      "url": "http://adaptivecards.io",
+      "data": "Meine Termine"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
