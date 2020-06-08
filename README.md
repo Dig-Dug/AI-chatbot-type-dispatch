@@ -8,8 +8,8 @@ Chatbot application of type Dispatch (parallel use of Luis and Qna) with help of
 ![1](1.JPG)
 ## [bot framework Emulator and testing](https://github.com/Microsoft/BotFramework-Emulator)
 <img src="2.jpg" alt="My cool logo"/>
-## [using xampp to deal with users](https://www.apachefriends.org/index.html)
+using xampp to deal with users https://www.apachefriends.org/index.html
 <img src="3.jpg" alt="My cool logo"/>
-# UML diagram describing the application
+UML diagram describing the application
 <img src="uml.jpg" alt="uml"/>
 
