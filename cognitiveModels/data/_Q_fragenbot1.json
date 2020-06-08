@@ -1,0 +1,265 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 1,
+      "answer": "Arztpraxis steht grundsätzlich jedem zur Verfügung, der sich untersuchen bzw. behandeln lassen möchte. Das gilt sowohl für Privatpatienten als auch für Patienten der gesetzlichen Krankenkassen. Unterschiede gibt es lediglich bei der [Kostenübernahme](https://Arztpraxis.com/medlanes-kostenuebernahme/).",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Von wem kann Arztpraxis genutzt werden?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 2,
+      "answer": "Bei Arztpraxis haben Sie die Möglichkeit, im Falle von gesundheitlichen Beschwerden, eine zeitnahe medizinische Versorgung im vertrauten Umfeld in Anspruch zu nehmen. Egal ob im akuten Krankheitsfall oder für eine Vorsorgeuntersuchung – bei Arztpraxis erhalten Sie kompetente ärztliche Unterstützung, wann immer Sie sie benötigen. Sollten ihre Symptome bzw. Beschwerden jedoch kritisch oder potentiell lebensgefährlich sein, dann wenden Sie sich bitte umgehend an den örtlichen Rettungsdienst. Der deutschlandweite Notruf ist die 112.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Wann ist Arztpraxis der richtige Ansprechpartner?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 3,
+      "answer": "Zu den Ärzten unseres Netzwerks zählen neben Allgemeinmedizinern unter anderem auch Ärzte aus folgenden Fachbereichen: Pädiatrie, Hals-Nasen-Ohren-Heilkunde, Orthopädie und Dermatologie.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Welche Ärzte stehen mir bei Arztpraxis zur Verfügung?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 4,
+      "answer": "Um Ihnen die bestmögliche medizinische Versorgung anbieten zu können, arbeiten wir ausschließlich mit Ärzten zusammen, die über langjährige Erfahrung in der ambulanten Patientenbetreuung verfügen. Zudem sind Sie allesamt auf Bewertungsportalen wie Jameda, doctena.de, arztbuchen24.de oder arzttermine.de gelistet und zählen dort zu den bestbewerteten 5%.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Nach welchen Kriterien wählt Arztpraxis seine Ärzte aus?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 5,
+      "answer": "Zur Zeit können Sie unser medizinischen Angebot in 14 deutschen Großstädten in Anspruch nehmen. Neben Berlin sind wir bislang in München, Hamburg, Köln, Frankfurt am Main, Nürnberg, Düsseldorf, Dortmund, Leipzig, Dresden, Bremen und Wiesbaden vertreten. Wir sind stets bemüht, weitere Städte zu erschließen, um Ihnen in naher Zukunft deutschlandweit verfügbar zu sein.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "In welchen Städten ist Arztpraxis verfügbar?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 6,
+      "answer": "Sie können sich jederzeit an uns wenden. Das gilt sowohl für Wochenenden als auch für Feiertage und gerne auch außerhalb der üblichen Praxiszeiten. Nachdem Ihr Anruf bei uns eingegangen ist, erkundigen wir uns zunächst nach Ihrem Anliegen und nehmen Ihren Namen, Ihr Geburtsdatum, Ihre Adresse und den Namen Ihrer Krankenkasse auf. Anhand dieser Angaben wählen wir den geeignetsten Arzt unseres Netzwerks für Sie aus. Dieser wird Sie umgehend telefonisch kontaktieren, eventuelle Fragen zur bevorstehenden Untersuchung beantworten und bei Bedarf Sofortmaßnahmen einleiten. Sobald dies geschehen ist, wird er den Weg zum vereinbarten Behandlungsort antreten.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Was geschieht, wenn ich die Arztpraxis-Rufnummer wähle?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 7,
+      "answer": "Alle uns gegenüber gemachten Angaben werden selbstverständlich streng vertraulich behandelt und niemals an Dritte weitergegeben. Alle Mitarbeiter bei Medlanes unterliegen der strikten ärztlichen Schweigepflicht und arbeiten im Einklang mit den deutschen und europäischen Datenschutzgesetzen.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Was geschieht mit meinen vertraulichen Daten?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 8,
+      "answer": "Sie können uns anrufen. Zudem haben Sie die Möglichkeit, die kostenlose Arztpraxis-App herunterzuladen (App-Store bzw. Google Play Store) oder das Kontaktformular auf unserer [Startseite ](https://Arztpraxis.com)zu nutzen, wenn Sie einen Rückruf wünschen.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Welche weitere Kanäle kann ich zur Kontaktaufnahme nutzen?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 9,
+      "answer": "Als Grundlage für die Arztrechnung dient die [Gebührenordnung für Ärzte](https://www.pkv.de/service/rechtsquellen/gesetze-und-verordnungen/gebuehrenordnung-fuer-aerzte-goae.pdf)(GOÄ), zu deren Einhalt jeder Arzt verpflichtet ist. Sie ermöglicht es Ihnen alle Posten der Rechnung transparent nachzuvollziehen. Zögern Sie bitte nicht, sich bei Fragen an unser Support-Team zu wenden. Wir helfen Ihnen gerne weiter.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Wie funktioniert die Abrechnung?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 10,
+      "answer": "Für Privatpatienten gilt: Alle privaten Krankenkassen in Deutschland  (bzw. die Beihilfe, sofern Sie verbeamtet sind) übernehmen die Kosten für die von Medlanes organisierten Hausbesuche zu 100%. Sie können unseren Service also ohne Zuzahlung nutzen. Dies gilt übrigens auch für Patienten mit einer in Deutschland gültigen Reisekrankenversicherung. Nach Erhalt der Rechnung wird Ihnen eine Zahlungsfrist von vier Wochen eingeräumt. Ihre private Krankenkasse bzw. Reisekrankenversicherung wird Ihnen sämtliche Kosten erstatten. Sollte es dabei ausnahmsweise zu Problemen kommen, übernehmen wir den jeweiligen Betrag, sodass Ihnen keine Unkosten entstehen.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Ich bin Privatpatient – werden wirklich alle Kosten übernommen?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 11,
+      "answer": "Zwar übernehmen die gesetzlichen Krankenkassen die Kosten für ärztliche Hausbesuche bislang nicht oder nur teilweise, unseren Service können Sie dennoch als Selbstzahler nutzen. In diesem Fall können Sie die Arztrechnung im Anschluss an die Behandlung in bar bezahlen. In manchen Fällen ist auch die bargeldlose Zahlung per EC- bzw. Kreditkarte (Visa, MasterCard, American Express) möglich. Es wird empfohlen, den Arzt im Vorfeld nach der Verfügbarkeit eines Kartenlesegerätes zu fragen.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Kann ich den Arztpraxis-Service als Patient der gesetzlichen Krankenkassen nutzen?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 12,
+      "answer": "Im akuten Krankheitsfall kann die zeitnahe Verfügbarkeit eines Arztes ausschlaggebend für eine schnelle Genesung sein. Deshalb bemühen wir uns, den Vermittlungsprozess und den Anfahrtsweg des jeweiligen Arztes möglichst kurz zu halten. Auf Faktoren wie die Witterungsverhältnisse, das tageszeitabhängige Verkehrsaufkommen, Großereignisse oder andere Eventualitäten haben wir jedoch keinen Einfluss. Daher können wir Ihnen keine genaue Ankunftszeit nennen. Sie können jedoch sicher sein, dass der Arzt sich immer auf dem schnellsten Weg zu Ihnen begeben wird.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Wie lange dauert es, bis der Arzt bei mir eintrifft?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 13,
+      "answer": "Sofern der Arztpraxis-Service in Ihrer Stadt verfügbar ist und der von Ihnen gewählte Ort alle Voraussetzungen für eine optimale medizinische Versorgung erfüllt, wird der Arzt Sie dort behandeln. Neben Ihrem Wohnsitz kann die Behandlung beispielsweise an Ihrem Arbeitsplatz oder in einem Hotel stattfinden.",
+      "source": "https://medlanes.com/faq/",
+      "questions": [
+        "Kann ich den genauen Behandlungsort frei wählen?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 14,
+      "answer": "+49 30 25430688 ",
+      "source": "Editorial",
+      "questions": [
+        "wie lautet Ihre Telefonnummer?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+      "context": {
+        "isContextOnly": false,
+        "prompts": [
+          {
+            "displayOrder": 0,
+            "qnaId": 15,
+            "qna": {
+              "id": 15,
+              "answer": "nein",
+              "source": "Editorial",
+              "questions": [
+                "Kann ich  Ihnen noch weiterhelfen?"
+              ],
+              "metadata": [],
+              "alternateQuestions": "",
+              "alternateQuestionClusters": [],
+              "changeStatus": "NoChange",
+              "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              }
+            },
+            "displayText": "Kann ich  Ihnen noch weiterhelfen?"
+          }
+        ]
+      }
+    }
+  ]
+}

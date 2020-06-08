@@ -1,0 +1,286 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "DoctorsOffice",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "termin vereinbaren"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Ärzte",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "Events",
+      "roles": [
+        "tag",
+        "uhr",
+        "monat"
+      ],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "Patient Name",
+      "roles": [
+        "e-mail",
+        "Event",
+        "Name"
+      ],
+      "hierarchyChildren": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "Uhr",
+      "mode": true,
+      "words": "1,2,3,4,5,6,8,9,7,10,11,12,19,13,14,16,15,18,17,21,23,22,27,26,28,29,31,24,25,20,30,33,34,37,38,39,43,32,36,eins,zwei,drei,gleich,fünf,sechs,siebte,ersten,zehn,vierte,letzten,kommenden,erste,nächste,vergangenen,folgenden",
+      "activated": true
+    },
+    {
+      "name": "Monat",
+      "mode": true,
+      "words": "januar,februar,oktober,august,dezember,mai,june,november,herbst,frühling,schnee,sommer,märz,april",
+      "activated": true
+    },
+    {
+      "name": "tag",
+      "mode": true,
+      "words": "montag,dienstag,mittwoch,freitag,sonntag,samstag,donnerstag,wochenende,abend,uhr,woche,heut,danach",
+      "activated": true
+    },
+    {
+      "name": "Ärzte",
+      "mode": true,
+      "words": "weiß,albini,castaneda",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "ich brauche einen termin",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Patient Name",
+          "role": "Name",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "ich brauche einen termin für den 4. januar",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Patient Name",
+          "role": "Name",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "Events",
+          "role": "monat",
+          "startPos": 33,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "ich heiße",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Patient Name",
+          "role": "Name",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "ich muss meinen termin mit doktor mary am 13. dezember um 17:00 uhr ändern",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Ärzte",
+          "startPos": 27,
+          "endPos": 32
+        },
+        {
+          "entity": "Ärzte",
+          "startPos": 34,
+          "endPos": 37
+        },
+        {
+          "entity": "Events",
+          "role": "monat",
+          "startPos": 42,
+          "endPos": 53
+        },
+        {
+          "entity": "Events",
+          "startPos": 58,
+          "endPos": 59
+        }
+      ]
+    },
+    {
+      "text": "ich will meine termin verändern",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Patient Name",
+          "role": "Name",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "ist doktor albini am 5. dezember verfügbar?",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Ärzte",
+          "startPos": 11,
+          "endPos": 16
+        },
+        {
+          "entity": "Events",
+          "role": "monat",
+          "startPos": 21,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "ist herr ross verfügbar den 6 juni?",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Ärzte",
+          "startPos": 9,
+          "endPos": 12
+        },
+        {
+          "entity": "Events",
+          "role": "tag",
+          "startPos": 28,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "meie termin mit herr albini",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Ärzte",
+          "startPos": 21,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "mein e-mail ist",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Patient Name",
+          "role": "e-mail",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "mein termin für den 4. juli mit frau weiß",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Events",
+          "startPos": 20,
+          "endPos": 20
+        },
+        {
+          "entity": "Ärzte",
+          "startPos": 37,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "meine termin mit herr albini",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Ärzte",
+          "startPos": 22,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "um 3:00 uhr mit arzt ross",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Events",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "Ärzte",
+          "startPos": 21,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "um 3:00 uhr mit herr castaneda",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Events",
+          "role": "uhr",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "Ärzte",
+          "startPos": 21,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "wann kann ich mit herr doktor albini sprechen ?",
+      "intent": "termin vereinbaren",
+      "entities": [
+        {
+          "entity": "Ärzte",
+          "startPos": 30,
+          "endPos": 35
+        }
+      ]
+    }
+  ],
+  "settings": []
+}

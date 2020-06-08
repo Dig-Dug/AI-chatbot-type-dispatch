@@ -1,0 +1,198 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "Dispatch",
+  "name": "arztpraxisdispatch",
+  "desc": "Dispatch model for arztpraxisdispatch",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "DoctorsOffice"
+    },
+    {
+      "name": "fragenbot1"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "i_0",
+      "mode": true,
+      "words": "1,2,3,4,5,6,8,9,7,10,11,12,19,13,14,16,15,18,17,21,23,22,27,26,28,29,31,24,25,20,30,33,34,37,38,39,43,32,36,eins,zwei,drei,gleich,fünf,sechs,siebte,ersten,zehn,vierte,letzten,kommenden,erste,nächste,vergangenen,folgenden",
+      "activated": true
+    },
+    {
+      "name": "i_1",
+      "mode": true,
+      "words": "januar,februar,oktober,august,dezember,mai,june,november,herbst,frühling,schnee,sommer,märz,april",
+      "activated": true
+    },
+    {
+      "name": "i_2",
+      "mode": true,
+      "words": "montag,dienstag,mittwoch,freitag,sonntag,samstag,donnerstag,wochenende,abend,uhr,woche,heut,danach",
+      "activated": true
+    },
+    {
+      "name": "i_3",
+      "mode": true,
+      "words": "weiß,albini,castaneda",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "meie termin mit herr albini",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "mein e-mail ist",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "ich will meine termin verändern",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "ich heiße",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "ist doktor albini am 5. dezember verfügbar",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "ich brauche einen termin",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "wann kann ich mit herr doktor albini sprechen",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "ich muss meinen termin mit doktor mary am 13. dezember um 17:00 uhr ändern",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "mein termin für den 4. juli mit frau weiß",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "um 3:00 uhr mit arzt ross",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "um 3:00 uhr mit herr castaneda",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "ich brauche einen termin für den 4. januar",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "meine termin mit herr albini",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "ist herr ross verfügbar den 6 juni",
+      "intent": "DoctorsOffice",
+      "entities": []
+    },
+    {
+      "text": "welche weitere kanäle kann ich zur kontaktaufnahme nutzen",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "wie funktioniert die abrechnung",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "in welchen städten ist arztpraxis verfügbar",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "welche ärzte stehen mir bei arztpraxis zur verfügung",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "was geschieht, wenn ich die arztpraxis-rufnummer wähle",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "von wem kann arztpraxis genutzt werden",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "wie lautet ihre telefonnummer",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "nach welchen kriterien wählt arztpraxis seine ärzte aus",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "ich bin privatpatient – werden wirklich alle kosten übernommen",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "wie lange dauert es, bis der arzt bei mir eintrifft",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "kann ich den genauen behandlungsort frei wählen",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "wann ist arztpraxis der richtige ansprechpartner",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "kann ich den arztpraxis-service als patient der gesetzlichen krankenkassen nutzen",
+      "intent": "fragenbot1",
+      "entities": []
+    },
+    {
+      "text": "was geschieht mit meinen vertraulichen daten",
+      "intent": "fragenbot1",
+      "entities": []
+    }
+  ],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    }
+  ]
+}
