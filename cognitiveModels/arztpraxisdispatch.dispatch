@@ -8,8 +8,8 @@
   "services": [
     {
       "intentName": "DoctorsOffice",
-      "appId": "a806af8c-6326-4aea-9e90-1fa5f755bf7e",
-      "authoringKey": "f2cd02ff78294720bf9623fb3795108a",
+      "appId": "xxxxxxxxxxxxxxxxxxxxxxxx",
+      "authoringKey": "xxxxxxxxxxxxxxxxxxxxxxxx",
       "version": "0.1",
       "region": "westus",
       "type": "luis",
@@ -18,8 +18,8 @@
     },
     {
       "intentName": "fragenbot1",
-      "kbId": "6c394a94-951b-46b8-b0b2-f35bb0f36c12",
-      "subscriptionKey": "e727f914b09849e081c7d90dbafa10dc",
+      "kbId": "xxxxxxxxxxxxxxxxxxxxxxxx",
+      "subscriptionKey": "xxxxxxxxxxxxxxxxxxxxxxxx",
       "type": "qna",
       "name": "fragenbot1",
       "id": "2"
@@ -29,8 +29,8 @@
     "1",
     "2"
   ],
-  "appId": "f7ca89d4-696e-4f4e-9dc9-ff6461611724",
-  "authoringKey": "f2cd02ff78294720bf9623fb3795108a",
+  "appId": "xxxxxxxxxxxxxxxxxxxxxxxx",
+  "authoringKey": "xxxxxxxxxxxxxxxxxxxxxxxx",
   "version": "Dispatch",
   "region": "westus",
   "type": "dispatch",
