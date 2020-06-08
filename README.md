@@ -8,7 +8,9 @@ Editing cards in the adaptive cards designer https://adaptivecards.io/designer/
 ![1](screenshots/1.JPG) 
 bot framework Emulator and testing https://github.com/Microsoft/BotFramework-Emulator
 ![2](screenshots/2.jpg) <br/>
- using xampp to deal with users https://www.apachefriends.org/index.html
+ using
+ ## [xampp](https://www.apachefriends.org/index.html) 
+ to deal with users 
 
 ![3](screenshots/3.jpg) 
 UML diagram describing the application
