@@ -5,7 +5,7 @@ Chatbot application of type Dispatch (parallel use of Luis and Qna) with help of
 ## [Microsoft Azure: Cloud Computing Services](https://azure.microsoft.com/en-us/free/search/?&ef_id=EAIaIQobChMI3eb947vy6QIVDO3tCh2EBg9gEAAYASAAEgKNpvD_BwE:G:s&OCID=AID2000076_SEM_EAIaIQobChMI3eb947vy6QIVDO3tCh2EBg9gEAAYASAAEgKNpvD_BwE:G:s&dclid=CMO6hou88ukCFQjKuwgdzpIBZw)
 
 ## [Editing cards in the adaptive cards designer](https://adaptivecards.io/designer/)
-![1](1.JPG)
+![1](screenshots/1.JPG) 
 ## [bot framework Emulator and testing](https://github.com/Microsoft/BotFramework-Emulator)
 <img src="2.jpg" alt="My cool logo"/>
 using xampp to deal with users https://www.apachefriends.org/index.html
