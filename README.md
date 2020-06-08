@@ -6,12 +6,9 @@ Chatbot application of type Dispatch (parallel use of Luis and Qna) with help of
 
 Editing cards in the adaptive cards designer https://adaptivecards.io/designer/
 ![1](screenshots/1.JPG) 
-bot framework Emulator and testing https://github.com/Microsoft/BotFramework-Emulator
+[bot framework Emulator](https://github.com/Microsoft/BotFramework-Emulator) and testing 
 ![2](screenshots/2.jpg) <br/>
  using [xampp](https://www.apachefriends.org/index.html) to deal with users 
- 
- 
-
 ![3](screenshots/3.jpg) 
 UML diagram describing the application
 <img src="uml.jpg" alt="uml"/>
